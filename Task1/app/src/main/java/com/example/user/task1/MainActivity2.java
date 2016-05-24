@@ -17,7 +17,25 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         addButtonClicklistener();
         addButtonClicklistener1();
+        addButtonClicklistener2();
+
+
+
+
     }
+
+    private void addButtonClicklistener2() {
+        Button button;
+        button =(Button)findViewById(R.id.button2);
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View arg0){
+                Intent intent = new Intent(MainActivity2.this, MainActivity4.class );
+                startActivity(intent);
+    }
+
+
+
 
     private void addButtonClicklistener1() {
         Button button;
