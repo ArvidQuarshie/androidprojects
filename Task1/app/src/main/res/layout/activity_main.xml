@@ -10,8 +10,4 @@
     tools:context="com.example.user.task1.MainActivity"
     android:background="@drawable/splash">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
 </RelativeLayout>

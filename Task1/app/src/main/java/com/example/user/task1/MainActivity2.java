@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import static com.example.user.task1.R.layout.activity_main2;
+
 /**
  * Created by user on 5/24/16.
  */
@@ -14,7 +16,7 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(activity_main2);
         addButtonClicklistener();
         addButtonClicklistener1();
         addButtonClicklistener2();
@@ -27,6 +29,7 @@ public class MainActivity2 extends AppCompatActivity {
     private void addButtonClicklistener2() {
         Button button;
         button =(Button)findViewById(R.id.button2);
+        assert button != null;
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View arg0){
@@ -39,7 +42,7 @@ public class MainActivity2 extends AppCompatActivity {
 
     private void addButtonClicklistener1() {
         Button button;
-        button =(Button)findViewById(R.id.button2);
+        button =(Button)findViewById(R.id.button3);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View arg0){
@@ -49,9 +52,7 @@ public class MainActivity2 extends AppCompatActivity {
 
 
 
-
-
-    public void addButtonClicklistener(){
+            public void addButtonClicklistener(){
         Button button;
         button = (Button)findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener(){
