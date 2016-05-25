@@ -16,9 +16,25 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Login">
+        <activity android:name=".LogIn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN00" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".JohnSnow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN000" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".whatyouknow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN0000" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

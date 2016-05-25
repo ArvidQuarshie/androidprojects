@@ -28,7 +28,7 @@ public class MainActivity2 extends AppCompatActivity {
 
     private void addButtonClicklistener1() {
         Button button;
-        button =(Button)findViewById(R.id.button3);
+        button = (Button) findViewById(R.id.button3);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {

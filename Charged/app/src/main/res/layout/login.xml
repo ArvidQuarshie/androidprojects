@@ -25,7 +25,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:height="50dp" />
+        android:height="50dp"
+        android:textAlignment="center"
+        android:background="@color/background_floating_material_light" />
 
     <Button
         android:layout_width="wrap_content"
@@ -39,7 +41,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:height="50dp"
-        android:background="#1fdd0e" />
+        android:background="#1fdd0e"
+        android:onClick="loginclick"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -52,7 +55,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:height="50dp" />
+        android:height="50dp"
+        android:textAlignment="center"
+        android:background="@color/background_floating_material_light" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -60,10 +65,10 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Have An Account? Log In"
         android:id="@+id/textView3"
+        android:textColor="#fff"
+
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="41dp"
-        android:layout_marginStart="41dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp" />
 
 </RelativeLayout>

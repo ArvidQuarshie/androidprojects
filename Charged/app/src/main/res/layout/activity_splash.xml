@@ -28,6 +28,8 @@
         android:id="@+id/textView"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:drawableTint="#ffffff" />
+        android:drawableTint="#ffffff"
+        android:textColor="#fff"
+        />
 
 </RelativeLayout>
