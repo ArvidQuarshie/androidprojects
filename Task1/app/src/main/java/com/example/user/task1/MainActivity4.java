@@ -21,11 +21,14 @@ public class MainActivity4 extends AppCompatActivity {
 
     public void listen2(View view) {
         Button button;
-        button =(Button)findViewById(R.id.button5);
-        button.setOnClickListener(new View.OnClickListener(){
+        button = (Button) findViewById(R.id.button5);
+        assert button != null;
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View arg0){
-                Intent intent = new Intent(MainActivity4.this, MainActivity2.class );
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity4.this, MainActivity2.class);
                 startActivity(intent);
+            }
+        });
     }
 }

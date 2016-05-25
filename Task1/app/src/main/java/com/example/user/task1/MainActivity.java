@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-            setContentView(R.layout.MainActivity);
+            setContentView(R.layout.activity_main);
             Thread timerThread = new Thread(){
                 public void run(){
                     try{
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
                     }catch(InterruptedException e){
                         e.printStackTrace();
                     }finally{
-                        Intent intent = new Intent(MainActivity.this, MainActivity.class);
+                        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
                         startActivity(intent);
                     }
                 }
@@ -36,5 +36,3 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-}

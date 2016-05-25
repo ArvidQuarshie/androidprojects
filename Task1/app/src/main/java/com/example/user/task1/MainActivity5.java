@@ -20,7 +20,7 @@ public class MainActivity5 extends AppCompatActivity {
 
     public void listen3(View view) {
         Button button;
-        button =(Button)findViewById(R.id.button6);
+        button = (Button) findViewById(R.id.button6);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
@@ -28,4 +28,6 @@ public class MainActivity5 extends AppCompatActivity {
                 startActivity(intent);
             }
 
-        }
+        });
+    }
+}

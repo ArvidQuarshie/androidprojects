@@ -26,32 +26,37 @@ public class MainActivity2 extends AppCompatActivity {
 
     }
 
+    private void addButtonClicklistener1() {
+        Button button;
+        button =(Button)findViewById(R.id.button3);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity2.this, MainActivity4.class);
+                startActivity(intent);
+
+            }
+        });
+
+}
+
+
+
+
+
     private void addButtonClicklistener2() {
         Button button;
         button =(Button)findViewById(R.id.button2);
         assert button != null;
-        button.setOnClickListener(new View.OnClickListener(){
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View arg0){
-                Intent intent = new Intent(MainActivity2.this, MainActivity4.class );
-                startActivity(intent);
-    }
-
-
-
-
-    private void addButtonClicklistener1() {
-        Button button;
-        button =(Button)findViewById(R.id.button3);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View arg0){
-                Intent intent = new Intent(MainActivity2.this, MainActivity4.class );
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity2.this, MainActivity4.class);
                 startActivity(intent);
             }
 
-
-
+        });
+    }
             public void addButtonClicklistener(){
         Button button;
         button = (Button)findViewById(R.id.button);
@@ -68,5 +73,6 @@ public class MainActivity2 extends AppCompatActivity {
 
     }
 }
+
 
 
