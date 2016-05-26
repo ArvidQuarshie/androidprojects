@@ -97,5 +97,16 @@
         android:textColor="#fff"
         />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/buttonsnow"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_centerHorizontal="true"
+        android:onClick="listen1"
+
+        />
+
 
 </RelativeLayout>
