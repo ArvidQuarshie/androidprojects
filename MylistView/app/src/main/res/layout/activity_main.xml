@@ -7,13 +7,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.floatingactionbutton.MainActivityFloat">
+    tools:context="com.example.user.mylistview.MainActivity">
 
-    <ImageButton
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:id="@+id/imageButton"
-        android:background="@drawable/"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewa"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
