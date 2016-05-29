@@ -18,19 +18,19 @@
         android:layout_width="305dp"
         android:layout_height="wrap_content"
         android:text="Diamonds"
-        android:id="@+id/button"
+        android:id="@+id/diamonds"
         android:layout_weight="0.19"
-        android:layout_above="@+id/button2"
+        android:layout_above="@+id/gold"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="298dp"
         android:layout_height="wrap_content"
-        android:text="Gold"
-        android:id="@+id/button2"
+        android:text="gold"
+        android:id="@+id/gold"
         android:layout_weight="0.19"
-        android:layout_above="@+id/button3"
+        android:layout_above="@+id/girls"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -38,10 +38,10 @@
         android:layout_width="302dp"
         android:layout_height="wrap_content"
         android:text="Girls"
-        android:id="@+id/button3"
+        android:id="@+id/girls"
         android:layout_weight="0.19"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/button"
-        android:layout_alignEnd="@+id/button"
+        android:layout_alignRight="@+id/diamonds"
+        android:layout_alignEnd="@+id/diamonds"
         android:layout_marginBottom="99dp" />
 </RelativeLayout>
