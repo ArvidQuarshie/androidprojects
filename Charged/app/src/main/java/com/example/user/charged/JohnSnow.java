@@ -17,7 +17,7 @@ public class JohnSnow extends AppCompatActivity {
         setContentView(R.layout.johnsnow);
     }
 
-    public void addButtonClicklistener(){
+    public void listen1 (View view){
         Button button;
         button = (Button)findViewById(R.id.buttonsnow);
         button.setOnClickListener(new View.OnClickListener(){
