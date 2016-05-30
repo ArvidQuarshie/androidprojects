@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.mrrobot">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN0" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Cast">
+            <intent-filter>
+                <action android:name="android.intent.action.MAINO0" />
+
+                <category android:name="android.intent.category.DEFAULT0" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Episodes">
+            <intent-filter>
+                <action android:name="android.intent.action.MAINOOO" />
+
+                <category android:name="android.intent.category.DEFAULT00" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

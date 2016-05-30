@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mr. Robot is an American drama–thriller television series created by Sam Esmail. It stars Rami Malek as Elliot Alderson, a cybersecurity engineer and hacker who suffers from social anxiety disorder and clinical depression. Alderson is recruited by an insurrectionary anarchist known as &quot;Mr. Robot&quot;, played by Christian Slater, to join a group of hacktivists. The group aims to cancel all debts by attacking the large corporation E Corp.  The pilot premiered on multiple online and video on demand services on May 27, 2015,[6] and the series was renewed for a second season before the first season premiered on USA Network on June 24, 2015.[7] The 10-episode second season will premiere on July 13, 2016.[8] Mr. Robot has received critical acclaim and has been nominated for multiple awards, winning the 2015 Golden Globe Award for Best Television Series – Drama.  Contents  [show]  "
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
